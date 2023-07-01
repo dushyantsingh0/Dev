@@ -5,7 +5,10 @@ def main():
     
     # Add your Streamlit app code here
     st.write("Good morning Daddy's Girl")
-    st.st_canvas(fillcolor="rgba(255,265,0,0.5)")
+    st.select_slider("Pick a size",["S","M","L"])
+
+
+    
     
 if __name__ == "__main__":
     main()
