@@ -5,7 +5,8 @@ def main():
     
     # Add your Streamlit app code here
     st.write("Good morning Daddy's Girl")
-    st.select_slider("Pick a size",["S","M","L"])
+    image = st.camera_input("Take a picture")
+    
 
 
     
